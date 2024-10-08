@@ -8,7 +8,7 @@ from recommendation import (ElasticsearchSearch, JournalVector, FastTextCNN,
 from metric import shift_of_rank, accuracy_at_n
 
 
-def run_test_for_articles(area)
+def run_test_for_articles(area):
     articles = get_articles(area)
 
     all_results = {}
